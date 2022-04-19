@@ -1,4 +1,4 @@
-# Twitter Hashtag Recommendor
+# Twitter Hashtag Recommender
 
 ## Overview
 
