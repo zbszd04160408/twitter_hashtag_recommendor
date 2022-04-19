@@ -54,9 +54,10 @@ Huggingface space is [here](https://huggingface.co/spaces/vivianhuang88/hashtag_
 Huggingface model card is [here](https://huggingface.co/vivianhuang88/bert_twitter_hashtag/tree/main).
 
 ## Critical Analysis
-1. For efficiency consideration, we only added the top 1000 hashtag topics to our vocab dictionary. However, the actual number of potential hashtags should be millions. If adding all the hashtags to the dictionary, the efficiency of this approach will grow expoenentially. But not including these hashtags might also decrease toe candidate hashtags for users to choose. In addition to this, topics might be unavailable to be predicted if it is not trained in our model. 
+1. For efficiency consideration, we only added the top 1000 hashtag topics to our vocab dictionary. However, the actual number of potential hashtags should be millions. If adding all the hashtags to the dictionary, the efficiency of this approach will drop expoenentially. But not including these hashtags might also decrease the candidate hashtags for users to choose. In addition to this, topics might be unavailable to be predicted if it is not trained in our model. 
 2. Training data is small as well. The size of training data is about 30k. 
-3. Future modifications on this model might be add weights on different topics. For example, more recent topics will be weighted higher than older topics.
+3. Predicting tags only depend on context of tweet might not be enough, as people usually provide some information as well in the attached images. Getting information from images could also be an idea. 
+4. Future modifications on this model might be add weights on different topics. For example, more recent topics will be weighted higher than older topics.
 
 
 ## Resource Links
