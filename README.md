@@ -53,6 +53,8 @@ Huggingface model card is [here](https://huggingface.co/vivianhuang88/bert_twitt
 
 ## Code Demo
 
+[Code Demo](https://github.com/zbszd04160408/twitter_hashtag_recommendor/blob/main/30-ModelWalkthrough.ipynb) is inside this repo
+
 ## Repo
 In this repo
 
