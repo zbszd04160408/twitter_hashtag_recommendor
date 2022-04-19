@@ -24,7 +24,7 @@ Some special modifications I made to the model are as follows:
 
 **Our approach:**
 
-![image](https://user-images.githubusercontent.com/56851668/163923371-97311812-d6e3-4b47-a277-d5112842198b.png)
+![image](https://user-images.githubusercontent.com/56851668/163928564-029eff54-e89a-433d-9993-6ed6f60f4950.png)
 
 **Original tweet:**
 
