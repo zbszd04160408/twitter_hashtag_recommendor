@@ -75,3 +75,4 @@ Huggingface model card is [here](https://huggingface.co/vivianhuang88/bert_twitt
 In this repo
 
 ## Video Recording
+https://youtu.be/EC18mZBy1Jo
